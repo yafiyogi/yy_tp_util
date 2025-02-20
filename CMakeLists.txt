@@ -40,7 +40,6 @@ include(${YY_CMAKE}/cmake_common.txt)
 set(YY_TP_UTIL_INCLUDE
   "civetweb_fwd.h"
   "spdlog_fwd.h"
-  "yaml_fwd.h"
-  "yaml_util.h")
+  "yaml_fwd.h")
 
 install(FILES ${YY_TP_UTIL_INCLUDE} DESTINATION include/yy_tp_util)
